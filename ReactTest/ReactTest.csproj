@@ -69,7 +69,7 @@
     <Content Include="dist\bundle.js" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
-    <Content Include="index.cshtml" />
+    <Content Include="index.html" />
     <Content Include="src\index.jsx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -1,6 +1,6 @@
 {
 	"version": "1.0.0",
-	"name": "ASP.NET",
+	"name": "ASPNET",
 	"devDependencies": {
 		"babel": "~6.23.0",
 		"babel-cli": "^6.24.1",
@@ -9,7 +9,7 @@
 		"babel-preset-es2015": "~6.24.1",
 		"babel-preset-latest": "^6.24.1",
 		"babel-preset-react": "^6.24.1",
-		"babel-preset-stage-0": "^6.24.1",
+		"babel-preset-stage-0": "^6.24.1"
 	},
 	"dependencies": {
 		"react": "~15.5.3",
@@ -18,6 +18,5 @@
 	},
 	"scripts": {
 		"build": "webpack --config webpack.config.js"
-	},
-	"-vs-binding": { "AfterBuild": [ "build" ] }
+	}
 }
